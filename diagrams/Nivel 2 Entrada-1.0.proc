@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:decision="http://www.bonitasoft.org/ns/studio/process/decision" xmlns:expression="http://www.bonitasoft.org/ns/studio/expression" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.3/notation" xmlns:process="http://www.bonitasoft.org/ns/studio/process" xsi:schemaLocation="http://www.bonitasoft.org/ns/studio/process/decision http://www.bonitasoft.org/ns/studio/process#//decision">
   <process:MainProcess xmi:id="_lRnc4IyCEey2BNhv0SqMZA" name="Nivel 2 Entrada" author="aaron" bonitaVersion="7.13.0" bonitaModelVersion="7.12.0-004">
-    <elements xmi:type="process:Pool" xmi:id="_lRnc4YyCEey2BNhv0SqMZA" name="Apertura de cuenta bancaria">
+    <elements xmi:type="process:Pool" xmi:id="_lRnc4YyCEey2BNhv0SqMZA" name="Subsproceso: Solicitar planilla en atención al cliente">
       <elements xmi:type="process:Lane" xmi:id="_lRnc4oyCEey2BNhv0SqMZA" name="Nivel 2 - Subproceso ENTRADA" actor="_lRnc-4yCEey2BNhv0SqMZA">
         <elements xmi:type="process:StartEvent" xmi:id="_lRnc44yCEey2BNhv0SqMZA" name="Inicio" outgoing="_RM30MIzaEey2BNhv0SqMZA">
           <dynamicLabel xmi:type="expression:Expression" xmi:id="_lRnc5IyCEey2BNhv0SqMZA" name="" content="" returnTypeFixed="true"/>
@@ -144,7 +144,7 @@
           <styles xmi:type="notation:FontStyle" xmi:id="_lRndJIyCEey2BNhv0SqMZA" fontName="Ubuntu"/>
           <styles xmi:type="notation:LineStyle" xmi:id="_lRndJYyCEey2BNhv0SqMZA"/>
           <styles xmi:type="notation:FillStyle" xmi:id="_lRndJoyCEey2BNhv0SqMZA"/>
-          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_lRndJ4yCEey2BNhv0SqMZA"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_lRndJ4yCEey2BNhv0SqMZA" x="23" y="10" width="927" height="400"/>
         </children>
       </children>
       <styles xmi:type="notation:DescriptionStyle" xmi:id="_lRndKIyCEey2BNhv0SqMZA"/>

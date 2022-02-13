@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:decision="http://www.bonitasoft.org/ns/studio/process/decision" xmlns:expression="http://www.bonitasoft.org/ns/studio/expression" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.3/notation" xmlns:process="http://www.bonitasoft.org/ns/studio/process" xsi:schemaLocation="http://www.bonitasoft.org/ns/studio/process/decision http://www.bonitasoft.org/ns/studio/process#//decision">
   <process:MainProcess xmi:id="_O4YOwIzqEeyxRJKvknTYuw" name="Nivel 3 Salida" author="aaron" bonitaVersion="7.13.0" bonitaModelVersion="7.12.0-004">
-    <elements xmi:type="process:Pool" xmi:id="_O4YOwYzqEeyxRJKvknTYuw" name="Apertura Cuenta Bancaria">
+    <elements xmi:type="process:Pool" xmi:id="_O4YOwYzqEeyxRJKvknTYuw" name="Subproceso:  Aperturar de cuenta">
       <elements xmi:type="process:Lane" xmi:id="_O4YOwozqEeyxRJKvknTYuw" name="Cliente" actor="_O4YO24zqEeyxRJKvknTYuw">
         <elements xmi:type="process:Activity" xmi:id="_eRoQvIzqEeyxRJKvknTYuw" name="Cliente: Seguir los pasos indicados para empezar a utilizar la cuenta bancaria" outgoing="_eRqs8IzqEeyxRJKvknTYuw" incoming="_y5-NsIzqEeyxRJKvknTYuw">
           <dynamicLabel xmi:type="expression:Expression" xmi:id="_eRoQvYzqEeyxRJKvknTYuw" name="" content="" returnTypeFixed="true"/>
