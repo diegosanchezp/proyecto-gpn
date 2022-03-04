@@ -4,17 +4,18 @@
     <elements xmi:type="process:Pool" xmi:id="_xx9icYuaEey49bnJT2IkRw" name="Apertura Cuenta Bancaria">
       <elements xmi:type="process:Lane" xmi:id="_xx9icouaEey49bnJT2IkRw" name="Nivel 0 - Proceso" actor="_xx9ii4uaEey49bnJT2IkRw">
         <elements xmi:type="process:StartEvent" xmi:id="_xx9ic4uaEey49bnJT2IkRw" name="Inicio" outgoing="_xx9iiIuaEey49bnJT2IkRw">
+          <textAnnotationAttachment xmi:type="process:TextAnnotationAttachment" xmi:id="_8QpAUJvLEeyZk4Z3PLWjtw" source="_8QmkEJvLEeyZk4Z3PLWjtw"/>
           <dynamicLabel xmi:type="expression:Expression" xmi:id="_xx9idIuaEey49bnJT2IkRw" name="" content="" returnTypeFixed="true"/>
           <dynamicDescription xmi:type="expression:Expression" xmi:id="_xx9idYuaEey49bnJT2IkRw" name="" content="" returnTypeFixed="true"/>
           <stepSummary xmi:type="expression:Expression" xmi:id="_xx9idouaEey49bnJT2IkRw" name="" content="" returnTypeFixed="true"/>
         </elements>
         <elements xmi:type="process:EndEvent" xmi:id="_9aqD4IuaEey49bnJT2IkRw" name="Fin" incoming="_9awxkIuaEey49bnJT2IkRw">
+          <textAnnotationAttachment xmi:type="process:TextAnnotationAttachment" xmi:id="_IX6boIubEey49bnJT2IkRw" source="_IX1jIIubEey49bnJT2IkRw"/>
           <dynamicLabel xmi:type="expression:Expression" xmi:id="_9aqq8IuaEey49bnJT2IkRw" name="" content="" returnTypeFixed="true"/>
           <dynamicDescription xmi:type="expression:Expression" xmi:id="_9aqD4YuaEey49bnJT2IkRw" name="" content="" returnTypeFixed="true"/>
           <stepSummary xmi:type="expression:Expression" xmi:id="_9aqq8YuaEey49bnJT2IkRw" name="" content="" returnTypeFixed="true"/>
         </elements>
         <elements xmi:type="process:Activity" xmi:id="_A4CwwIubEey49bnJT2IkRw" name="Apertura Cuenta Bancaria" outgoing="_9awxkIuaEey49bnJT2IkRw" incoming="_xx9iiIuaEey49bnJT2IkRw">
-          <textAnnotationAttachment xmi:type="process:TextAnnotationAttachment" xmi:id="_IX6boIubEey49bnJT2IkRw" source="_IX1jIIubEey49bnJT2IkRw"/>
           <dynamicLabel xmi:type="expression:Expression" xmi:id="_xx9ieIuaEey49bnJT2IkRw" name="" content="" returnTypeFixed="true"/>
           <dynamicDescription xmi:type="expression:Expression" xmi:id="_xx9ieYuaEey49bnJT2IkRw" name="" content="" returnTypeFixed="true"/>
           <stepSummary xmi:type="expression:Expression" xmi:id="_xx9ieouaEey49bnJT2IkRw" name="" content="" returnTypeFixed="true"/>
@@ -26,6 +27,7 @@
         </elements>
         <elements xmi:type="process:TextAnnotation" xmi:id="_IX1jIIubEey49bnJT2IkRw" text="Cuenta&#xA;Bancaria aperturada "/>
         <elements xmi:type="process:TextAnnotation" xmi:id="_azeYAIubEey49bnJT2IkRw" text="Misión:&#xA;Aperturar cuenta en un banco para utilizar sus servicios financieros."/>
+        <elements xmi:type="process:TextAnnotation" xmi:id="_8QmkEJvLEeyZk4Z3PLWjtw" text="Cliente interesado por utilizar servicios financieros del banco"/>
       </elements>
       <formMapping xmi:type="process:FormMapping" xmi:id="_xx9ihIuaEey49bnJT2IkRw">
         <targetForm xmi:type="expression:Expression" xmi:id="_xx9ihYuaEey49bnJT2IkRw" name="" content="" type="FORM_REFERENCE_TYPE" returnTypeFixed="true"/>
@@ -102,7 +104,7 @@
               <styles xmi:type="notation:DescriptionStyle" xmi:id="_IX2KMYubEey49bnJT2IkRw"/>
               <styles xmi:type="notation:FontStyle" xmi:id="_IX2KMoubEey49bnJT2IkRw" fontName="JetBrains Mono"/>
               <styles xmi:type="notation:LineStyle" xmi:id="_IX2KM4ubEey49bnJT2IkRw"/>
-              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_IX2KNIubEey49bnJT2IkRw" x="257" y="10" width="107" height="94"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_IX2KNIubEey49bnJT2IkRw" x="401" y="21" width="107" height="94"/>
             </children>
             <children xmi:type="notation:Node" xmi:id="_azfmIIubEey49bnJT2IkRw" type="3015" element="_azeYAIubEey49bnJT2IkRw">
               <children xmi:type="notation:DecorationNode" xmi:id="_azgNMIubEey49bnJT2IkRw" type="5010"/>
@@ -110,6 +112,13 @@
               <styles xmi:type="notation:FontStyle" xmi:id="_azfmIoubEey49bnJT2IkRw" fontName="JetBrains Mono"/>
               <styles xmi:type="notation:LineStyle" xmi:id="_azfmI4ubEey49bnJT2IkRw"/>
               <layoutConstraint xmi:type="notation:Bounds" xmi:id="_azfmJIubEey49bnJT2IkRw" x="61" y="255" width="304" height="76"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_8QmkEZvLEeyZk4Z3PLWjtw" type="3015" element="_8QmkEJvLEeyZk4Z3PLWjtw">
+              <children xmi:type="notation:DecorationNode" xmi:id="_8QnLIJvLEeyZk4Z3PLWjtw" type="5010"/>
+              <styles xmi:type="notation:DescriptionStyle" xmi:id="_8QmkEpvLEeyZk4Z3PLWjtw"/>
+              <styles xmi:type="notation:FontStyle" xmi:id="_8QmkE5vLEeyZk4Z3PLWjtw" fontName="JetBrains Mono"/>
+              <styles xmi:type="notation:LineStyle" xmi:id="_8QmkFJvLEeyZk4Z3PLWjtw"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_8QmkFZvLEeyZk4Z3PLWjtw" x="78" y="10" width="176" height="75"/>
             </children>
           </children>
           <styles xmi:type="notation:DescriptionStyle" xmi:id="_xx9is4uaEey49bnJT2IkRw"/>
@@ -140,9 +149,14 @@
       <styles xmi:type="notation:FontStyle" xmi:id="_9axYoYuaEey49bnJT2IkRw" fontName="JetBrains Mono"/>
       <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_9axYoouaEey49bnJT2IkRw" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
     </edges>
-    <edges xmi:type="notation:Connector" xmi:id="_IX7pwIubEey49bnJT2IkRw" type="4003" element="_IX6boIubEey49bnJT2IkRw" source="_IX2KMIubEey49bnJT2IkRw" target="_A4El8IubEey49bnJT2IkRw">
+    <edges xmi:type="notation:Connector" xmi:id="_IX7pwIubEey49bnJT2IkRw" type="4003" element="_IX6boIubEey49bnJT2IkRw" source="_IX2KMIubEey49bnJT2IkRw" target="_9ar5EIuaEey49bnJT2IkRw">
       <styles xmi:type="notation:FontStyle" xmi:id="_IX7pwYubEey49bnJT2IkRw" fontName="JetBrains Mono"/>
       <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_IX7pwoubEey49bnJT2IkRw" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_7B0EcJvFEeyh-4e-SeYj2A" id="(0.1,0.3)"/>
+    </edges>
+    <edges xmi:type="notation:Connector" xmi:id="_8QpnYJvLEeyZk4Z3PLWjtw" type="4003" element="_8QpAUJvLEeyZk4Z3PLWjtw" source="_8QmkEZvLEeyZk4Z3PLWjtw" target="_xx9ir4uaEey49bnJT2IkRw">
+      <styles xmi:type="notation:FontStyle" xmi:id="_8QpnYZvLEeyZk4Z3PLWjtw" fontName="JetBrains Mono"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_8QpnYpvLEeyZk4Z3PLWjtw" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
     </edges>
   </notation:Diagram>
 </xmi:XMI>

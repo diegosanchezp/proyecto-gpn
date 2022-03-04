@@ -4,6 +4,7 @@
     <elements xmi:type="process:Pool" xmi:id="_qsu88YzeEey2BNhv0SqMZA" name="Subproceso:  Aperturar de cuenta">
       <elements xmi:type="process:Lane" xmi:id="_qsu88ozeEey2BNhv0SqMZA" name="Nivel 2 - Actividades" actor="_qsu9C4zeEey2BNhv0SqMZA">
         <elements xmi:type="process:StartEvent" xmi:id="_qsu884zeEey2BNhv0SqMZA" name="Inicio" outgoing="_e--qcIzgEey2BNhv0SqMZA">
+          <textAnnotationAttachment xmi:type="process:TextAnnotationAttachment" xmi:id="_ypaOEJvQEeyZk4Z3PLWjtw" source="_yKdoQJvQEeyZk4Z3PLWjtw"/>
           <dynamicLabel xmi:type="expression:Expression" xmi:id="_qsu89IzeEey2BNhv0SqMZA" name="" content="" returnTypeFixed="true"/>
           <dynamicDescription xmi:type="expression:Expression" xmi:id="_qsu89YzeEey2BNhv0SqMZA" name="" content="" returnTypeFixed="true"/>
           <stepSummary xmi:type="expression:Expression" xmi:id="_qsu89ozeEey2BNhv0SqMZA" name="" content="" returnTypeFixed="true"/>
@@ -29,6 +30,7 @@
           <completionCondition xmi:type="expression:Expression" xmi:id="_zYFuFYzfEey2BNhv0SqMZA" name="" content="" returnType="java.lang.Boolean" returnTypeFixed="true"/>
         </elements>
         <elements xmi:type="process:EndEvent" xmi:id="_ANIt4IzgEey2BNhv0SqMZA" name="Fin" incoming="_A_bGcIzgEey2BNhv0SqMZA">
+          <textAnnotationAttachment xmi:type="process:TextAnnotationAttachment" xmi:id="_tnX3kJvQEeyZk4Z3PLWjtw" source="_tEvEkJvQEeyZk4Z3PLWjtw"/>
           <dynamicLabel xmi:type="expression:Expression" xmi:id="_ANJU8YzgEey2BNhv0SqMZA" name="" content="" returnTypeFixed="true"/>
           <dynamicDescription xmi:type="expression:Expression" xmi:id="_ANJU8IzgEey2BNhv0SqMZA" name="" content="" returnTypeFixed="true"/>
           <stepSummary xmi:type="expression:Expression" xmi:id="_ANJU8ozgEey2BNhv0SqMZA" name="" content="" returnTypeFixed="true"/>
@@ -43,6 +45,8 @@
           <iteratorExpression xmi:type="expression:Expression" xmi:id="_R9IkwYzgEey2BNhv0SqMZA" name="multiInstanceIterator" content="multiInstanceIterator" type="MULTIINSTANCE_ITERATOR_TYPE" returnType="java.lang.Object" returnTypeFixed="true"/>
           <completionCondition xmi:type="expression:Expression" xmi:id="_R9IkwIzgEey2BNhv0SqMZA" name="" content="" returnType="java.lang.Boolean" returnTypeFixed="true"/>
         </elements>
+        <elements xmi:type="process:TextAnnotation" xmi:id="_tEvEkJvQEeyZk4Z3PLWjtw" text="Cuenta bancaria&#xA;aperturada"/>
+        <elements xmi:type="process:TextAnnotation" xmi:id="_yKdoQJvQEeyZk4Z3PLWjtw" text="Planilla validada"/>
       </elements>
       <formMapping xmi:type="process:FormMapping" xmi:id="_qsu9BIzeEey2BNhv0SqMZA">
         <targetForm xmi:type="expression:Expression" xmi:id="_qsu9BYzeEey2BNhv0SqMZA" name="" content="" type="FORM_REFERENCE_TYPE" returnTypeFixed="true"/>
@@ -130,19 +134,33 @@
               <children xmi:type="notation:DecorationNode" xmi:id="_R9Jy4ozgEey2BNhv0SqMZA" type="5006"/>
               <layoutConstraint xmi:type="notation:Bounds" xmi:id="_R9Jy4YzgEey2BNhv0SqMZA" x="137" y="48" width="140" height="70"/>
             </children>
+            <children xmi:type="notation:Node" xmi:id="_tEw5wJvQEeyZk4Z3PLWjtw" type="3015" element="_tEvEkJvQEeyZk4Z3PLWjtw">
+              <children xmi:type="notation:DecorationNode" xmi:id="_tEw5xZvQEeyZk4Z3PLWjtw" type="5010"/>
+              <styles xmi:type="notation:DescriptionStyle" xmi:id="_tEw5wZvQEeyZk4Z3PLWjtw"/>
+              <styles xmi:type="notation:FontStyle" xmi:id="_tEw5wpvQEeyZk4Z3PLWjtw" fontName="JetBrains Mono"/>
+              <styles xmi:type="notation:LineStyle" xmi:id="_tEw5w5vQEeyZk4Z3PLWjtw"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_tEw5xJvQEeyZk4Z3PLWjtw" x="652" y="166" width="134" height="52"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_yKePUJvQEeyZk4Z3PLWjtw" type="3015" element="_yKdoQJvQEeyZk4Z3PLWjtw">
+              <children xmi:type="notation:DecorationNode" xmi:id="_yKe2YJvQEeyZk4Z3PLWjtw" type="5010"/>
+              <styles xmi:type="notation:DescriptionStyle" xmi:id="_yKePUZvQEeyZk4Z3PLWjtw"/>
+              <styles xmi:type="notation:FontStyle" xmi:id="_yKePUpvQEeyZk4Z3PLWjtw" fontName="JetBrains Mono"/>
+              <styles xmi:type="notation:LineStyle" xmi:id="_yKePU5vQEeyZk4Z3PLWjtw"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_yKePVJvQEeyZk4Z3PLWjtw" x="63" y="155"/>
+            </children>
           </children>
           <styles xmi:type="notation:DescriptionStyle" xmi:id="_qsu9M4zeEey2BNhv0SqMZA"/>
           <styles xmi:type="notation:FontStyle" xmi:id="_qsu9NIzeEey2BNhv0SqMZA" fontName="Ubuntu"/>
           <styles xmi:type="notation:LineStyle" xmi:id="_qsu9NYzeEey2BNhv0SqMZA"/>
           <styles xmi:type="notation:FillStyle" xmi:id="_qsu9NozeEey2BNhv0SqMZA"/>
-          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_qsu9N4zeEey2BNhv0SqMZA"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_qsu9N4zeEey2BNhv0SqMZA" x="46" y="10" width="943" height="269"/>
         </children>
       </children>
       <styles xmi:type="notation:DescriptionStyle" xmi:id="_qsu9OIzeEey2BNhv0SqMZA"/>
       <styles xmi:type="notation:FontStyle" xmi:id="_qsu9OYzeEey2BNhv0SqMZA" fontName="Ubuntu"/>
       <styles xmi:type="notation:LineStyle" xmi:id="_qsu9OozeEey2BNhv0SqMZA"/>
       <styles xmi:type="notation:FillStyle" xmi:id="_qsu9O4zeEey2BNhv0SqMZA"/>
-      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_qsu9PIzeEey2BNhv0SqMZA" width="870" height="250"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_qsu9PIzeEey2BNhv0SqMZA" width="964" height="250"/>
     </children>
     <styles xmi:type="notation:DiagramStyle" xmi:id="_qsu9PYzeEey2BNhv0SqMZA"/>
     <edges xmi:type="notation:Connector" xmi:id="__rf14IzeEey2BNhv0SqMZA" type="4001" element="__renwIzeEey2BNhv0SqMZA" source="_R9Jy4IzgEey2BNhv0SqMZA" target="__HaRYIzeEey2BNhv0SqMZA" roundedBendpointsRadius="10" routing="Rectilinear">
@@ -180,6 +198,18 @@
       <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_e-_4kozgEey2BNhv0SqMZA" points="[-1, -9, -58, 0]$[47, -9, -10, 0]"/>
       <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_e_BGsIzgEey2BNhv0SqMZA" id="(1.0,0.8666666666666667)"/>
       <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_e_BGsYzgEey2BNhv0SqMZA" id="(0.07142857142857142,0.5285714285714286)"/>
+    </edges>
+    <edges xmi:type="notation:Connector" xmi:id="_tnYeoJvQEeyZk4Z3PLWjtw" type="4003" element="_tnX3kJvQEeyZk4Z3PLWjtw" source="_tEw5wJvQEeyZk4Z3PLWjtw" target="_ANKjEIzgEey2BNhv0SqMZA">
+      <styles xmi:type="notation:FontStyle" xmi:id="_tnYeoZvQEeyZk4Z3PLWjtw" fontName="JetBrains Mono"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_tnYeopvQEeyZk4Z3PLWjtw" points="[-7, -8, 78, 99]$[-85, -97, 0, 10]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_tnZFsJvQEeyZk4Z3PLWjtw" id="(1.0,0.14)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_tnZFsZvQEeyZk4Z3PLWjtw" id="(0.2,0.6333333333333333)"/>
+    </edges>
+    <edges xmi:type="notation:Connector" xmi:id="_ypa1IJvQEeyZk4Z3PLWjtw" type="4003" element="_ypaOEJvQEeyZk4Z3PLWjtw" source="_yKePUJvQEeyZk4Z3PLWjtw" target="_qsu9L4zeEey2BNhv0SqMZA">
+      <styles xmi:type="notation:FontStyle" xmi:id="_ypa1IZvQEeyZk4Z3PLWjtw" fontName="JetBrains Mono"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_ypa1IpvQEeyZk4Z3PLWjtw" points="[-13, -7, 146, 87]$[-158, -81, 1, 13]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_ypcDQJvQEeyZk4Z3PLWjtw" id="(1.0,0.12)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_ypcDQZvQEeyZk4Z3PLWjtw" id="(0.2,0.5666666666666667)"/>
     </edges>
   </notation:Diagram>
 </xmi:XMI>
