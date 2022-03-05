@@ -24,11 +24,13 @@
           <completionCondition xmi:type="expression:Expression" xmi:id="_wJgK2IziEey2BNhv0SqMZA" name="" content="" returnType="java.lang.Boolean" returnTypeFixed="true"/>
         </elements>
         <elements xmi:type="process:EndEvent" xmi:id="_wJgx5oziEey2BNhv0SqMZA" name="Fin" incoming="_wJinEIziEey2BNhv0SqMZA">
+          <textAnnotationAttachment xmi:type="process:TextAnnotationAttachment" xmi:id="_4EuBwJw0Eey66swmvITKnA" source="_4EkQwJw0Eey66swmvITKnA"/>
           <dynamicLabel xmi:type="expression:Expression" xmi:id="_wJgx54ziEey2BNhv0SqMZA" name="" content="" returnTypeFixed="true"/>
           <dynamicDescription xmi:type="expression:Expression" xmi:id="_wJgx6IziEey2BNhv0SqMZA" name="" content="" returnTypeFixed="true"/>
           <stepSummary xmi:type="expression:Expression" xmi:id="_wJgx6YziEey2BNhv0SqMZA" name="" content="" returnTypeFixed="true"/>
         </elements>
         <elements xmi:type="process:StartEvent" xmi:id="_wJgx7oziEey2BNhv0SqMZA" name="Inicio" outgoing="_wJinGoziEey2BNhv0SqMZA">
+          <textAnnotationAttachment xmi:type="process:TextAnnotationAttachment" xmi:id="_t_O_gJw0Eey66swmvITKnA" source="_s3bC4Jw0Eey66swmvITKnA"/>
           <dynamicLabel xmi:type="expression:Expression" xmi:id="_wJgx74ziEey2BNhv0SqMZA" name="" content="" returnTypeFixed="true"/>
           <dynamicDescription xmi:type="expression:Expression" xmi:id="_wJgx8IziEey2BNhv0SqMZA" name="" content="" returnTypeFixed="true"/>
           <stepSummary xmi:type="expression:Expression" xmi:id="_wJgx8YziEey2BNhv0SqMZA" name="" content="" returnTypeFixed="true"/>
@@ -43,6 +45,8 @@
           <iteratorExpression xmi:type="expression:Expression" xmi:id="_lblvR4zlEey2BNhv0SqMZA" name="multiInstanceIterator" content="multiInstanceIterator" type="MULTIINSTANCE_ITERATOR_TYPE" returnType="java.lang.Object" returnTypeFixed="true"/>
           <completionCondition xmi:type="expression:Expression" xmi:id="_lblvRozlEey2BNhv0SqMZA" name="" content="" returnType="java.lang.Boolean" returnTypeFixed="true"/>
         </elements>
+        <elements xmi:type="process:TextAnnotation" xmi:id="_s3bC4Jw0Eey66swmvITKnA" name="Cópia de Cópia de " text="Cliente interesado por utilizar servicios &#xA;financieros del banco"/>
+        <elements xmi:type="process:TextAnnotation" xmi:id="_4EkQwJw0Eey66swmvITKnA" text="Tipo de cuenta seleccionada"/>
       </elements>
       <elements xmi:type="process:Lane" xmi:id="_gVi38IzkEey2BNhv0SqMZA" name="Empleado">
         <elements xmi:type="process:Activity" xmi:id="_wJfjwIziEey2BNhv0SqMZA" name="Empleado: Preguntar que tipo de cuenta quiere el cliente" outgoing="_wJiAB4ziEey2BNhv0SqMZA" incoming="_wJhY9IziEey2BNhv0SqMZA">
@@ -147,6 +151,20 @@
               <children xmi:type="notation:DecorationNode" xmi:id="_lbm9YozlEey2BNhv0SqMZA" type="5006"/>
               <layoutConstraint xmi:type="notation:Bounds" xmi:id="_lbm9YYzlEey2BNhv0SqMZA" x="327" y="125" width="140" height="70"/>
             </children>
+            <children xmi:type="notation:Node" xmi:id="_s3c4EJw0Eey66swmvITKnA" type="3015" element="_s3bC4Jw0Eey66swmvITKnA">
+              <children xmi:type="notation:DecorationNode" xmi:id="_s3c4EZw0Eey66swmvITKnA" type="5010" element="_s3bC4Jw0Eey66swmvITKnA"/>
+              <styles xmi:type="notation:DescriptionStyle" xmi:id="_s3c4Epw0Eey66swmvITKnA"/>
+              <styles xmi:type="notation:FontStyle" xmi:id="_s3c4E5w0Eey66swmvITKnA" fontName="JetBrains Mono"/>
+              <styles xmi:type="notation:LineStyle" xmi:id="_s3c4FJw0Eey66swmvITKnA"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_s3c4FZw0Eey66swmvITKnA" x="42" y="255" width="214" height="62"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_4EmtAJw0Eey66swmvITKnA" type="3015" element="_4EkQwJw0Eey66swmvITKnA">
+              <children xmi:type="notation:DecorationNode" xmi:id="_4EnUEJw0Eey66swmvITKnA" type="5010"/>
+              <styles xmi:type="notation:DescriptionStyle" xmi:id="_4EmtAZw0Eey66swmvITKnA"/>
+              <styles xmi:type="notation:FontStyle" xmi:id="_4EmtApw0Eey66swmvITKnA" fontName="Ubuntu"/>
+              <styles xmi:type="notation:LineStyle" xmi:id="_4EmtA5w0Eey66swmvITKnA"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_4EmtBJw0Eey66swmvITKnA" x="866" y="248"/>
+            </children>
           </children>
           <styles xmi:type="notation:DescriptionStyle" xmi:id="_fkx0WIziEey2BNhv0SqMZA"/>
           <styles xmi:type="notation:FontStyle" xmi:id="_fkx0WYziEey2BNhv0SqMZA" fontName="Ubuntu"/>
@@ -226,6 +244,16 @@
       <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_dieBcozmEey2BNhv0SqMZA" points="[0, 3, -43, 0]$[31, 2, -12, -1]"/>
       <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_dihEwIzmEey2BNhv0SqMZA" id="(1.0,0.4142857142857143)"/>
       <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_dihEwYzmEey2BNhv0SqMZA" id="(0.08571428571428572,0.45714285714285713)"/>
+    </edges>
+    <edges xmi:type="notation:Connector" xmi:id="_t_RbwJw0Eey66swmvITKnA" type="4003" element="_t_O_gJw0Eey66swmvITKnA" source="_s3c4EJw0Eey66swmvITKnA" target="_wJhY8IziEey2BNhv0SqMZA">
+      <styles xmi:type="notation:FontStyle" xmi:id="_t_RbwZw0Eey66swmvITKnA" fontName="Ubuntu"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_t_Rbwpw0Eey66swmvITKnA" points="[2, -3, 0, 96]$[2, -60, 0, 39]$[2, -87, 0, 12]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_t_VGIJw0Eey66swmvITKnA" id="(0.2757009345794392,0.016129032258064516)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_t_VtMJw0Eey66swmvITKnA" id="(0.16666666666666666,0.4666666666666667)"/>
+    </edges>
+    <edges xmi:type="notation:Connector" xmi:id="_4EvP4Jw0Eey66swmvITKnA" type="4003" element="_4EuBwJw0Eey66swmvITKnA" source="_4EmtAJw0Eey66swmvITKnA" target="_wJgx6oziEey2BNhv0SqMZA">
+      <styles xmi:type="notation:FontStyle" xmi:id="_4EvP4Zw0Eey66swmvITKnA" fontName="Ubuntu"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_4EvP4pw0Eey66swmvITKnA" points="[-23, -25, 78, 88]$[-50, -56, 51, 57]$[-70, -78, 31, 35]"/>
     </edges>
   </notation:Diagram>
 </xmi:XMI>

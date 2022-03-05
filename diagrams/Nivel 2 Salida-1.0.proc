@@ -10,6 +10,7 @@
           <stepSummary xmi:type="expression:Expression" xmi:id="_qsu89ozeEey2BNhv0SqMZA" name="" content="" returnTypeFixed="true"/>
         </elements>
         <elements xmi:type="process:Activity" xmi:id="__HYcMIzeEey2BNhv0SqMZA" name="Empleado: Enviar correo electrónico con los datos de gestión de la cuenta" outgoing="_0g_P0IzfEey2BNhv0SqMZA" incoming="__renwIzeEey2BNhv0SqMZA">
+          <textAnnotationAttachment xmi:type="process:TextAnnotationAttachment" xmi:id="_kzQ_MJw0Eey66swmvITKnA" source="_kzBHkJw0Eey66swmvITKnA"/>
           <dynamicLabel xmi:type="expression:Expression" xmi:id="__HZDQYzeEey2BNhv0SqMZA" name="" content="" returnTypeFixed="true"/>
           <dynamicDescription xmi:type="expression:Expression" xmi:id="__HZDQIzeEey2BNhv0SqMZA" name="" content="" returnTypeFixed="true"/>
           <stepSummary xmi:type="expression:Expression" xmi:id="__HZDQozeEey2BNhv0SqMZA" name="" content="" returnTypeFixed="true"/>
@@ -47,6 +48,7 @@
         </elements>
         <elements xmi:type="process:TextAnnotation" xmi:id="_tEvEkJvQEeyZk4Z3PLWjtw" text="Cuenta bancaria&#xA;aperturada"/>
         <elements xmi:type="process:TextAnnotation" xmi:id="_yKdoQJvQEeyZk4Z3PLWjtw" text="Planilla validada"/>
+        <elements xmi:type="process:TextAnnotation" xmi:id="_kzBHkJw0Eey66swmvITKnA" text="Correo electrónico enviado "/>
       </elements>
       <formMapping xmi:type="process:FormMapping" xmi:id="_qsu9BIzeEey2BNhv0SqMZA">
         <targetForm xmi:type="expression:Expression" xmi:id="_qsu9BYzeEey2BNhv0SqMZA" name="" content="" type="FORM_REFERENCE_TYPE" returnTypeFixed="true"/>
@@ -148,6 +150,13 @@
               <styles xmi:type="notation:LineStyle" xmi:id="_yKePU5vQEeyZk4Z3PLWjtw"/>
               <layoutConstraint xmi:type="notation:Bounds" xmi:id="_yKePVJvQEeyZk4Z3PLWjtw" x="63" y="155"/>
             </children>
+            <children xmi:type="notation:Node" xmi:id="_kzFZAJw0Eey66swmvITKnA" type="3015" element="_kzBHkJw0Eey66swmvITKnA">
+              <children xmi:type="notation:DecorationNode" xmi:id="_kzGAEJw0Eey66swmvITKnA" type="5010"/>
+              <styles xmi:type="notation:DescriptionStyle" xmi:id="_kzFZAZw0Eey66swmvITKnA"/>
+              <styles xmi:type="notation:FontStyle" xmi:id="_kzFZApw0Eey66swmvITKnA" fontName="Ubuntu"/>
+              <styles xmi:type="notation:LineStyle" xmi:id="_kzFZA5w0Eey66swmvITKnA"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_kzFZBJw0Eey66swmvITKnA" x="349" y="158"/>
+            </children>
           </children>
           <styles xmi:type="notation:DescriptionStyle" xmi:id="_qsu9M4zeEey2BNhv0SqMZA"/>
           <styles xmi:type="notation:FontStyle" xmi:id="_qsu9NIzeEey2BNhv0SqMZA" fontName="Ubuntu"/>
@@ -210,6 +219,10 @@
       <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_ypa1IpvQEeyZk4Z3PLWjtw" points="[-13, -7, 146, 87]$[-158, -81, 1, 13]"/>
       <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_ypcDQJvQEeyZk4Z3PLWjtw" id="(1.0,0.12)"/>
       <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_ypcDQZvQEeyZk4Z3PLWjtw" id="(0.2,0.5666666666666667)"/>
+    </edges>
+    <edges xmi:type="notation:Connector" xmi:id="_kzS0YJw0Eey66swmvITKnA" type="4003" element="_kzQ_MJw0Eey66swmvITKnA" source="_kzFZAJw0Eey66swmvITKnA" target="__HaRYIzeEey2BNhv0SqMZA">
+      <styles xmi:type="notation:FontStyle" xmi:id="_kzS0YZw0Eey66swmvITKnA" fontName="Ubuntu"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_kzS0Ypw0Eey66swmvITKnA" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
     </edges>
   </notation:Diagram>
 </xmi:XMI>
