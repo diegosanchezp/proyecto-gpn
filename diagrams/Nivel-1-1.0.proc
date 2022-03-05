@@ -9,7 +9,7 @@
           <dynamicDescription xmi:type="expression:Expression" xmi:id="_vrucdYufEey49bnJT2IkRw" name="" content="" returnTypeFixed="true"/>
           <stepSummary xmi:type="expression:Expression" xmi:id="_vrucdoufEey49bnJT2IkRw" name="" content="" returnTypeFixed="true"/>
         </elements>
-        <elements xmi:type="process:Activity" xmi:id="_inLLkIugEey49bnJT2IkRw" name="Solicitar planilla en atención al cliente" outgoing="_cBLH8IugEey49bnJT2IkRw" incoming="_vruciIufEey49bnJT2IkRw">
+        <elements xmi:type="process:Activity" xmi:id="_inLLkIugEey49bnJT2IkRw" name="Atención al cliente" outgoing="_cBLH8IugEey49bnJT2IkRw" incoming="_vruciIufEey49bnJT2IkRw">
           <textAnnotationAttachment xmi:type="process:TextAnnotationAttachment" xmi:id="_QAiLIIuhEey49bnJT2IkRw" source="_QAcrkIuhEey49bnJT2IkRw"/>
           <dynamicLabel xmi:type="expression:Expression" xmi:id="_vruceIufEey49bnJT2IkRw" name="" content="" returnTypeFixed="true"/>
           <dynamicDescription xmi:type="expression:Expression" xmi:id="_vruceYufEey49bnJT2IkRw" name="" content="" returnTypeFixed="true"/>
@@ -40,7 +40,7 @@
           <dynamicDescription xmi:type="expression:Expression" xmi:id="_c4G6gIuhEey49bnJT2IkRw" name="" content="" returnTypeFixed="true"/>
           <stepSummary xmi:type="expression:Expression" xmi:id="_c4G6gouhEey49bnJT2IkRw" name="" content="" returnTypeFixed="true"/>
         </elements>
-        <elements xmi:type="process:Activity" xmi:id="_vhghII5rEeyBtpDwggGm7Q" name=" Aperturar de cuenta" outgoing="_c4NoMIuhEey49bnJT2IkRw" incoming="_ctWRcIugEey49bnJT2IkRw">
+        <elements xmi:type="process:Activity" xmi:id="_vhghII5rEeyBtpDwggGm7Q" name=" Apertura de cuenta" outgoing="_c4NoMIuhEey49bnJT2IkRw" incoming="_ctWRcIugEey49bnJT2IkRw">
           <dynamicLabel xmi:type="expression:Expression" xmi:id="_ctRY8ougEey49bnJT2IkRw" name="" content="" returnTypeFixed="true"/>
           <dynamicDescription xmi:type="expression:Expression" xmi:id="_ctRY8YugEey49bnJT2IkRw" name="" content="" returnTypeFixed="true"/>
           <stepSummary xmi:type="expression:Expression" xmi:id="_ctRY84ugEey49bnJT2IkRw" name="" content="" returnTypeFixed="true"/>
