@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:decision="http://www.bonitasoft.org/ns/studio/process/decision" xmlns:expression="http://www.bonitasoft.org/ns/studio/expression" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.3/notation" xmlns:process="http://www.bonitasoft.org/ns/studio/process" xsi:schemaLocation="http://www.bonitasoft.org/ns/studio/process/decision http://www.bonitasoft.org/ns/studio/process#//decision">
   <process:MainProcess xmi:id="_fkxNMIziEey2BNhv0SqMZA" name="Nivel 3 Entrada" author="aaron" bonitaVersion="7.13.0" bonitaModelVersion="7.12.0-004">
-    <elements xmi:type="process:Pool" xmi:id="_fkxNMYziEey2BNhv0SqMZA" name="Subproceso: Solicitar planilla en atención al cliente">
+    <elements xmi:type="process:Pool" xmi:id="_fkxNMYziEey2BNhv0SqMZA" name="Solicitar de apertura de cuenta banacaria">
       <elements xmi:type="process:Lane" xmi:id="_fkxNMoziEey2BNhv0SqMZA" name="Cliente" actor="_fkxNS4ziEey2BNhv0SqMZA">
         <elements xmi:type="process:TextAnnotation" xmi:id="_j6JbIK0lEey4b4rA_JFXww" text="Tipo de cuenta: ahorro o corriente"/>
         <elements xmi:type="process:Activity" xmi:id="_j6LQUK0lEey4b4rA_JFXww" name="Cliente: Leer beneficios de cuentas" outgoing="_j6R-AK0lEey4b4rA_JFXww" incoming="_oeTf0K1GEey4b4rA_JFXww">
@@ -101,7 +101,7 @@
           <completionCondition xmi:type="expression:Expression" xmi:id="_n3sy1q1GEey4b4rA_JFXww" name="" content="" returnType="java.lang.Boolean" returnTypeFixed="true"/>
         </elements>
       </elements>
-      <elements xmi:type="process:Lane" xmi:id="_CSJL8K00Eey4b4rA_JFXww" name="Senda1">
+      <elements xmi:type="process:Lane" xmi:id="_CSJL8K00Eey4b4rA_JFXww" name="Sistema Bancario">
         <elements xmi:type="process:Activity" xmi:id="_RcuVNq0zEey4b4rA_JFXww" name="SB: Mostrar formulario dependiente del tipo de que eligio el cliente" outgoing="_Rcx_lq0zEey4b4rA_JFXww" incoming="_iO4DwK0zEey4b4rA_JFXww">
           <textAnnotationAttachment xmi:type="process:TextAnnotationAttachment" xmi:id="_-orx8K0zEey4b4rA_JFXww" source="_Rcu8S60zEey4b4rA_JFXww"/>
           <dynamicLabel xmi:type="expression:Expression" xmi:id="_Rcu8QK0zEey4b4rA_JFXww" name="" content="" returnTypeFixed="true"/>
