@@ -47,7 +47,7 @@
           <completionCondition xmi:type="expression:Expression" xmi:id="_R9IkwIzgEey2BNhv0SqMZA" name="" content="" returnType="java.lang.Boolean" returnTypeFixed="true"/>
         </elements>
         <elements xmi:type="process:TextAnnotation" xmi:id="_tEvEkJvQEeyZk4Z3PLWjtw" text="Cuenta bancaria&#xA;aperturada"/>
-        <elements xmi:type="process:TextAnnotation" xmi:id="_yKdoQJvQEeyZk4Z3PLWjtw" text="Formulario de datos aprobado"/>
+        <elements xmi:type="process:TextAnnotation" xmi:id="_yKdoQJvQEeyZk4Z3PLWjtw" text="Datos aprobados y validados"/>
         <elements xmi:type="process:TextAnnotation" xmi:id="_kzBHkJw0Eey66swmvITKnA" text="Correo electrónico enviado "/>
         <elements xmi:type="process:TextAnnotation" xmi:id="_iUZFoK0iEeyqHZ7YtdKz2g" name="Cópia de " text="SB: sistema bancario"/>
       </elements>

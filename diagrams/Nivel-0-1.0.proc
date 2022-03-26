@@ -132,7 +132,7 @@
       <styles xmi:type="notation:FontStyle" xmi:id="_xx9iuYuaEey49bnJT2IkRw" fontName="JetBrains Mono"/>
       <styles xmi:type="notation:LineStyle" xmi:id="_xx9iuouaEey49bnJT2IkRw"/>
       <styles xmi:type="notation:FillStyle" xmi:id="_xx9iu4uaEey49bnJT2IkRw"/>
-      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_xx9ivIuaEey49bnJT2IkRw" width="1320" height="250"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_xx9ivIuaEey49bnJT2IkRw" width="720" height="250"/>
     </children>
     <styles xmi:type="notation:DiagramStyle" xmi:id="_xx9ivYuaEey49bnJT2IkRw"/>
     <edges xmi:type="notation:Connector" xmi:id="_xx9ivouaEey49bnJT2IkRw" type="4001" element="_xx9iiIuaEey49bnJT2IkRw" source="_xx9ir4uaEey49bnJT2IkRw" target="_A4El8IubEey49bnJT2IkRw" roundedBendpointsRadius="10" routing="Rectilinear">
