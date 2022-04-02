@@ -178,7 +178,7 @@
               <styles xmi:type="notation:DescriptionStyle" xmi:id="_nKmsA601Eey4b4rA_JFXww"/>
               <styles xmi:type="notation:FontStyle" xmi:id="_nKmsBK01Eey4b4rA_JFXww" fontName="JetBrains Mono"/>
               <styles xmi:type="notation:LineStyle" xmi:id="_nKmsBa01Eey4b4rA_JFXww"/>
-              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_nKmsBq01Eey4b4rA_JFXww" x="83" y="122" width="114"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_nKmsBq01Eey4b4rA_JFXww" x="63" y="122" width="134" height="46"/>
             </children>
             <children xmi:type="notation:Node" xmi:id="_nKpIQK01Eey4b4rA_JFXww" type="3015" element="_nKohOK01Eey4b4rA_JFXww">
               <children xmi:type="notation:DecorationNode" xmi:id="_nKpIQa01Eey4b4rA_JFXww" type="5010" element="_nKohOK01Eey4b4rA_JFXww"/>

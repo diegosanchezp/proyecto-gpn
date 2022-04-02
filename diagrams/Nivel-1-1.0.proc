@@ -9,7 +9,7 @@
           <dynamicDescription xmi:type="expression:Expression" xmi:id="_vrucdYufEey49bnJT2IkRw" name="" content="" returnTypeFixed="true"/>
           <stepSummary xmi:type="expression:Expression" xmi:id="_vrucdoufEey49bnJT2IkRw" name="" content="" returnTypeFixed="true"/>
         </elements>
-        <elements xmi:type="process:Activity" xmi:id="_inLLkIugEey49bnJT2IkRw" name="Solicitar de apertura de cuenta banacaria" outgoing="_cBLH8IugEey49bnJT2IkRw" incoming="_vruciIufEey49bnJT2IkRw">
+        <elements xmi:type="process:Activity" xmi:id="_inLLkIugEey49bnJT2IkRw" name="Solicitud de apertura de cuenta bancaria" outgoing="_cBLH8IugEey49bnJT2IkRw" incoming="_vruciIufEey49bnJT2IkRw">
           <textAnnotationAttachment xmi:type="process:TextAnnotationAttachment" xmi:id="_QAiLIIuhEey49bnJT2IkRw" source="_QAcrkIuhEey49bnJT2IkRw"/>
           <dynamicLabel xmi:type="expression:Expression" xmi:id="_vruceIufEey49bnJT2IkRw" name="" content="" returnTypeFixed="true"/>
           <dynamicDescription xmi:type="expression:Expression" xmi:id="_vruceYufEey49bnJT2IkRw" name="" content="" returnTypeFixed="true"/>
