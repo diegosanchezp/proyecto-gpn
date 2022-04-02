@@ -9,7 +9,7 @@
           <dynamicDescription xmi:type="expression:Expression" xmi:id="_vrucdYufEey49bnJT2IkRw" name="" content="" returnTypeFixed="true"/>
           <stepSummary xmi:type="expression:Expression" xmi:id="_vrucdoufEey49bnJT2IkRw" name="" content="" returnTypeFixed="true"/>
         </elements>
-        <elements xmi:type="process:Activity" xmi:id="_inLLkIugEey49bnJT2IkRw" name="Atención al cliente" outgoing="_cBLH8IugEey49bnJT2IkRw" incoming="_vruciIufEey49bnJT2IkRw">
+        <elements xmi:type="process:Activity" xmi:id="_inLLkIugEey49bnJT2IkRw" name="Solicitud de apertura de cuenta bancaria" outgoing="_cBLH8IugEey49bnJT2IkRw" incoming="_vruciIufEey49bnJT2IkRw">
           <textAnnotationAttachment xmi:type="process:TextAnnotationAttachment" xmi:id="_QAiLIIuhEey49bnJT2IkRw" source="_QAcrkIuhEey49bnJT2IkRw"/>
           <dynamicLabel xmi:type="expression:Expression" xmi:id="_vruceIufEey49bnJT2IkRw" name="" content="" returnTypeFixed="true"/>
           <dynamicDescription xmi:type="expression:Expression" xmi:id="_vruceYufEey49bnJT2IkRw" name="" content="" returnTypeFixed="true"/>
@@ -20,7 +20,7 @@
           <iteratorExpression xmi:type="expression:Expression" xmi:id="_vrucfoufEey49bnJT2IkRw" name="multiInstanceIterator" content="multiInstanceIterator" type="MULTIINSTANCE_ITERATOR_TYPE" returnType="java.lang.Object" returnTypeFixed="true"/>
           <completionCondition xmi:type="expression:Expression" xmi:id="_vrucf4ufEey49bnJT2IkRw" name="" content="" returnType="java.lang.Boolean" returnTypeFixed="true"/>
         </elements>
-        <elements xmi:type="process:Activity" xmi:id="_jf-b0IugEey49bnJT2IkRw" name="Validar planilla" outgoing="_ctWRcIugEey49bnJT2IkRw" incoming="_cBLH8IugEey49bnJT2IkRw">
+        <elements xmi:type="process:Activity" xmi:id="_jf-b0IugEey49bnJT2IkRw" name="Revisar de solicitud de apertura" outgoing="_ctWRcIugEey49bnJT2IkRw" incoming="_cBLH8IugEey49bnJT2IkRw">
           <textAnnotationAttachment xmi:type="process:TextAnnotationAttachment" xmi:id="_OG360IuhEey49bnJT2IkRw" source="_OG2ssIuhEey49bnJT2IkRw"/>
           <dynamicLabel xmi:type="expression:Expression" xmi:id="_cBClEYugEey49bnJT2IkRw" name="" content="" returnTypeFixed="true"/>
           <dynamicDescription xmi:type="expression:Expression" xmi:id="_cBClEIugEey49bnJT2IkRw" name="" content="" returnTypeFixed="true"/>
@@ -32,15 +32,15 @@
           <completionCondition xmi:type="expression:Expression" xmi:id="_cBClFougEey49bnJT2IkRw" name="" content="" returnType="java.lang.Boolean" returnTypeFixed="true"/>
         </elements>
         <elements xmi:type="process:TextAnnotation" xmi:id="_I8h84IuhEey49bnJT2IkRw" text="Cuenta&#xA;Bancaria aperturada "/>
-        <elements xmi:type="process:TextAnnotation" xmi:id="_OG2ssIuhEey49bnJT2IkRw" text="Planilla validada"/>
-        <elements xmi:type="process:TextAnnotation" xmi:id="_QAcrkIuhEey49bnJT2IkRw" text="Tipo de cuenta a aperturar&#xA;determinada"/>
+        <elements xmi:type="process:TextAnnotation" xmi:id="_OG2ssIuhEey49bnJT2IkRw" text="Datos validados y aprobados"/>
+        <elements xmi:type="process:TextAnnotation" xmi:id="_QAcrkIuhEey49bnJT2IkRw" text="Datos para la solicitud de apertura"/>
         <elements xmi:type="process:EndEvent" xmi:id="_c4GTcIuhEey49bnJT2IkRw" name="Fin" incoming="_c4NoMIuhEey49bnJT2IkRw">
           <textAnnotationAttachment xmi:type="process:TextAnnotationAttachment" xmi:id="_I8pRoIuhEey49bnJT2IkRw" source="_I8h84IuhEey49bnJT2IkRw"/>
           <dynamicLabel xmi:type="expression:Expression" xmi:id="_c4G6gYuhEey49bnJT2IkRw" name="" content="" returnTypeFixed="true"/>
           <dynamicDescription xmi:type="expression:Expression" xmi:id="_c4G6gIuhEey49bnJT2IkRw" name="" content="" returnTypeFixed="true"/>
           <stepSummary xmi:type="expression:Expression" xmi:id="_c4G6gouhEey49bnJT2IkRw" name="" content="" returnTypeFixed="true"/>
         </elements>
-        <elements xmi:type="process:Activity" xmi:id="_vhghII5rEeyBtpDwggGm7Q" name=" Apertura de cuenta" outgoing="_c4NoMIuhEey49bnJT2IkRw" incoming="_ctWRcIugEey49bnJT2IkRw">
+        <elements xmi:type="process:Activity" xmi:id="_vhghII5rEeyBtpDwggGm7Q" name=" Aperturar de cuenta" outgoing="_c4NoMIuhEey49bnJT2IkRw" incoming="_ctWRcIugEey49bnJT2IkRw">
           <dynamicLabel xmi:type="expression:Expression" xmi:id="_ctRY8ougEey49bnJT2IkRw" name="" content="" returnTypeFixed="true"/>
           <dynamicDescription xmi:type="expression:Expression" xmi:id="_ctRY8YugEey49bnJT2IkRw" name="" content="" returnTypeFixed="true"/>
           <stepSummary xmi:type="expression:Expression" xmi:id="_ctRY84ugEey49bnJT2IkRw" name="" content="" returnTypeFixed="true"/>
@@ -140,7 +140,7 @@
               <styles xmi:type="notation:DescriptionStyle" xmi:id="_OG2ssouhEey49bnJT2IkRw"/>
               <styles xmi:type="notation:FontStyle" xmi:id="_OG2ss4uhEey49bnJT2IkRw" fontName="JetBrains Mono"/>
               <styles xmi:type="notation:LineStyle" xmi:id="_OG2stIuhEey49bnJT2IkRw"/>
-              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_OG2stYuhEey49bnJT2IkRw" x="529" y="34"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_OG2stYuhEey49bnJT2IkRw" x="498" y="34" width="122" height="51"/>
             </children>
             <children xmi:type="notation:Node" xmi:id="_QAfH0IuhEey49bnJT2IkRw" type="3015" element="_QAcrkIuhEey49bnJT2IkRw">
               <children xmi:type="notation:DecorationNode" xmi:id="_QAfu4IuhEey49bnJT2IkRw" type="5010"/>
