@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<organization:Organization xmlns:organization="http://documentation.bonitasoft.com/organization-xml-schema/1.1" name="Banco" description="Banco XYZ">
+  <customUserInfoDefinitions/>
+  <users>
+    <user userName="cliente">
+      <firstName>Diego</firstName>
+      <lastName>Sanchez</lastName>
+      <personalData>
+        <email>diegosandmg@gmail.com</email>
+      </personalData>
+      <professionalData/>
+      <password encrypted="false">bpm</password>
+      <customUserInfoValues/>
+    </user>
+    <user userName="inspector">
+      <firstName>Aaron</firstName>
+      <lastName>Morillo</lastName>
+      <personalData/>
+      <professionalData/>
+      <password encrypted="false">bpm</password>
+      <customUserInfoValues/>
+    </user>
+  </users>
+  <roles>
+    <role name="cliente">
+      <displayName>Cliente</displayName>
+    </role>
+    <role name="agente">
+      <displayName>Agente Bancario</displayName>
+    </role>
+  </roles>
+  <groups>
+    <group name="Inspectores">
+      <displayName>Inspectores de solicitud</displayName>
+    </group>
+    <group name="Solicitantes">
+      <displayName>Solicitantes</displayName>
+    </group>
+  </groups>
+  <memberships>
+    <membership>
+      <userName>cliente</userName>
+      <roleName>cliente</roleName>
+      <groupName>Solicitantes</groupName>
+    </membership>
+    <membership>
+      <userName>inspector</userName>
+      <roleName>agente</roleName>
+      <groupName>Inspectores</groupName>
+    </membership>
+  </memberships>
+</organization:Organization>
